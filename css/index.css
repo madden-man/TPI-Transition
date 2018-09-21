@@ -1,0 +1,7 @@
+.flex-1 {
+	flex: 1 !important;
+}
+
+.sm-margin {
+	margin: 0 10px 0 10px;
+}
