@@ -1,0 +1,12 @@
+.block {
+	width: 350px; 
+	height: 250px; 
+	background-color: lightblue; 
+	float: left; 
+	line-height: 250px; 
+	vertical-align: middle;
+	margin-bottom: 30px;
+	font-size: 30px;
+	border-radius: 10%;
+	border: 3px ridge darkorange;
+}

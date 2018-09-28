@@ -22,7 +22,7 @@
       
       <?php include("side_bar.php"); ?>
 
-      <div class="carousel-inner" style="float: right; width: 95%;">
+      <div class="carousel-inner" style="float: right; width: 85%;">
         <div class="carousel-item active">
 
           <img src="img/fpo.jpg" style="width: 100%; height: 520px;" alt="Background Picture"/>		
@@ -44,14 +44,14 @@
         </div>
         <div class="carousel-item">
           
-          <img src="img/fpo.jpg" style="width: 100%; height: 550px;" alt="Background Picture">
+          <img src="img/fpo.jpg" style="width: 100%; height: 520px;" alt="Background Picture">
         
           <h1 style="color: #ffffff; position: absolute; top: 70%; left: 60%">Fancy Title: Educators</h1>
 
         </div>
         <div class="carousel-item">
           
-          <img src="img/fpo.jpg" style="width: 100%; height: 550px;" alt="Background Picture">
+          <img src="img/fpo.jpg" style="width: 100%; height: 520px;" alt="Background Picture">
         
           <h1 style="color: #ffffff; position: absolute; top: 70%; left: 60%">Fancy Title: Providers</h1>
 
@@ -70,18 +70,16 @@
     </div>
 
 			<div class="mr-2" role="group" aria-label="User Types Group" style="width: 100%; display: flex;">
-				<button type="button" class="btn btn-primary sm-margin flex-1">Individuals</button>
-				<button type="button" class="btn btn-primary sm-margin flex-1">Families</button>
-				<button type="button" class="btn btn-primary sm-margin flex-1">Employers</button>
-				<button type="button" class="btn btn-primary sm-margin flex-1">Educators</button>
-				<button type="button" class="btn btn-primary sm-margin flex-1">Service Providers</button>
+				<a type="button" href="group-info.php?group=individuals" class="btn btn-primary sm-margin flex-1"><h3>Individuals</h3></a>
+				<a type="button" href="group-info.php?group=families" class="btn btn-info sm-margin flex-1"><h3>Families</h3></a>
+				<a type="button" href="group-info.php?group=business_partners" class="btn btn-success sm-margin flex-1"><h3>Business Partners</h3></a>
+				<a type="button" href="group-info.php?group=educators" class="btn btn-info sm-margin flex-1"><h3>Educators</h3></a>
+				<a type="button" href="group-info.php?group=service_providers" class="btn btn-primary sm-margin flex-1"><h3>Service Providers</h3></a>
 			</div>
-
-
 
 		</div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
   </body>
 </html>
