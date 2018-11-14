@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffffff !important">
-  <a class="navbar-brand" href="#" style="padding: 0;"><img src="img/tpi_logo.jpg" alt="Logo" style="width: 400px; height: auto;"/></a>
+  <a class="navbar-brand" href="/tpi" style="padding: 0;"><img src="img/tpi_logo.jpg" alt="Logo" style="width: 400px; height: auto;"/></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -11,11 +11,13 @@
           Learn
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Videos</a>
+          <a class="dropdown-item" href="#">Workforce Development Pathways</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Helpful Links</a>
+          <a class="dropdown-item" href="oclpa.php">OCLPA</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">More Info</a>
+          <a class="dropdown-item" href="#">Thompson Policy Institute: Transition</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="work_learning.php">Work-Based Learning Opportunities</a>
         </div>
       </li>
       <li class="nav-item dropdown">
@@ -37,7 +39,7 @@
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">Contact Info</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">FAQ</a>
+          <a class="dropdown-item" href="feedback.php">Feedback</a>
         </div>
       </li>
     </ul>

@@ -1,11 +1,11 @@
 .block {
 	width: 350px; 
 	height: 250px; 
-	background-color: lightblue; 
-	float: left; 
+	display: inline-block;
+	background-color: white; 
 	line-height: 250px; 
 	vertical-align: middle;
-	margin-bottom: 30px;
+	margin-top: 30px;
 	font-size: 30px;
 	border-radius: 10%;
 	border: 3px ridge darkorange;
